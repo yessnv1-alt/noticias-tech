@@ -1,0 +1,11 @@
+.card {
+    background: #000;
+    border: 1px solid #ffc107;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px #ffc107;
+}
+.card-img-top { height: 200px; object-fit: cover; }
+.text-warning { color: #ffc107 !important; }
